@@ -3,9 +3,9 @@
 Chaos Organizer — это веб-приложение для организации личного хаоса, аналог чата "Избранное" в Telegram. Приложение позволяет сохранять текстовые заметки, ссылки, координаты, медиафайлы и обычные файлы с возможностью синхронизации между различными устройствами.
 
 ## Ссылки на проект
-* **Frontend (GitHub Pages):** [https://github.com/Kirill-dev01/chaos-organizer-frontend]
-* **Backend (Render):** [https://github.com/Kirill-dev01/chaos-organizer-backend]
-* **Сервер развернут на Render:** [https://kirill-dev01.github.io/chaos-organizer-frontend]
+* **Frontend:** [https://github.com/Kirill-dev01/chaos-organizer-frontend]
+* **Backend:** [https://github.com/Kirill-dev01/chaos-organizer-backend]
+* **Работающее приложение (Render):** [https://kirill-dev01.github.io/chaos-organizer-frontend]
 
 ---
 
