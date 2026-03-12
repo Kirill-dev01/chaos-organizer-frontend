@@ -5,13 +5,9 @@ import API from './API';
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.querySelector('.chaos-organizer');
 
-    // Создаем API. Передаем URL сервера и функцию, которая сработает при получении сообщения
-    const api = new API('ws://localhost:7070', (msg) => {
-        // Когда приходит сообщение, просим UI его отрисовать
+    const api = new API('wss://chaos-organizer-backend-h277.onrender.com', (msg) => {
         ui.renderMessage(msg);
     });
 
-    // Создаем UI и передаем ему весь объект api, 
-    // чтобы UI мог сам вызывать api.sendMessage и api.uploadFile
     const ui = new UI(container, api);
 });
