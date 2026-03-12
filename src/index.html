@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaos Organizer</title>
+</head>
+
+<body>
+    <div class="chaos-organizer">
+        <div class="header">Chaos Organizer</div>
+
+        <div class="messages-list">
+            <!-- Сюда будут падать сообщения -->
+        </div>
+
+        <!-- Зона, которая будет появляться при перетаскивании файлов -->
+        <div class="dnd-overlay hidden">Отпустите файлы для загрузки</div>
+
+        <form class="chat-form">
+            <!-- Кнопка геолокации -->
+            <button type="button" class="chat-btn chat-geo" title="Отправить геопозицию">📍</button>
+
+            <!-- Скрытый инпут для файлов и кнопка скрепки -->
+            <input type="file" class="file-input hidden" multiple>
+            <button type="button" class="chat-btn chat-attach" title="Прикрепить файл">📎</button>
+
+            <input type="text" class="chat-input" placeholder="Введите сообщение или @bot: команду..."
+                autocomplete="off">
+            <button type="submit" class="chat-submit">➤</button>
+        </form>
+    </div>
+</body>
+
+</html>
