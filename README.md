@@ -26,7 +26,12 @@ Chaos Organizer — это веб-приложение для организац
 4. **Поддержка оформления кода:** Текст, обернутый в тройные обратные кавычки ( ` ``` ` ), рендерится в чате как блок с кодом.
 5. **Отправка команд боту:** В чате присутствует бот, который реагирует на 5 различных команд (отправляются в формате `@bot: <команда>`):
    * `@bot: ping` — отвечает "pong!"
+   *  https://github.com/Kirill-dev01/chaos-organizer-frontend/blob/master/images/Снимок%20экрана%20(1120).png
    * `@bot: time` — выводит текущее время
+   * https://github.com/Kirill-dev01/chaos-organizer-frontend/blob/master/images/Снимок%20экрана%20(1121).png
    * `@bot: date` — выводит текущую дату
+   * https://github.com/Kirill-dev01/chaos-organizer-frontend/blob/master/images/Снимок%20экрана%20(1124).png
    * `@bot: coin` — подбрасывает монетку (Орел/Решка)
+   * https://github.com/Kirill-dev01/chaos-organizer-frontend/blob/master/images/Снимок%20экрана%20(1125).png
    * `@bot: weather` — выдает случайный прогноз погоды
+   * https://github.com/Kirill-dev01/chaos-organizer-frontend/blob/master/images/Снимок%20экрана%20(1126).png
